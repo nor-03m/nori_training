@@ -1,19 +1,18 @@
-
 body {
-    margin: 0;
+  margin: 0;
 }
 
 #header {
-    background-color: darkgray;
-    text-align: center;
+  background-color: darkgray;
+  text-align: center;
 }
 
 #title {
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-menu-item {
-    width: 33.3%;
+  width: 33.3%;
 }

@@ -1,36 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
-        crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+      integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <h1 id="title">nori's portfolio</h1>
-        <div class="pure-menu pure-menu-horizontal">
-            <a href="#" class="pure-menu-heading pure-menu-link">BRAND</a>
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item header-menu-item"><a href="#" class="pure-menu-link">News</a></li>
-                <li class="pure-menu-item header-menu-item"><a href="#" class="pure-menu-link">Sports</a></li>
-                <li class="pure-menu-item header-menu-item"><a href="#" class="pure-menu-link">Finance</a></li>
-            </ul>
+      <h1 id="title">nori's portfolio</h1>
+      <div class="pure-menu pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading pure-menu-link">ABOUT</a>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item header-menu-item">
+            <a href="#" class="pure-menu-link">Work</a>
+          </li>
+          <li class="pure-menu-item header-menu-item">
+            <a href="#" class="pure-menu-link">Sports</a>
+          </li>
+          <li class="pure-menu-item header-menu-item">
+            <a href="#" class="pure-menu-link">Finance</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-center">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li>
+              <a href="#">Parent</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Item</a></li>
+          </ul>
         </div>
+      </nav>
     </header>
     <div class="pure-g">
-        <div class="pure-u-4-5">
-            <p>comics</p>
+      <div class="pure-u-4-5">
+        <p>comics</p>
+
+        <div
+          class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+          uk-grid
+        >
+          <div class="uk-card-media-left uk-cover-container">
+            <a
+              href="https://www.amazon.co.jp/%E8%81%B2%E3%81%AE%E5%BD%A2-1-%E8%AC%9B%E8%AB%87%E7%A4%BE%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E4%BB%8A-%E8%89%AF%E6%99%82/dp/4063949737"
+              ><img src="7726.jpeg" alt="" uk-cover
+            /></a>
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">聲の形 -A Silent Voice-</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="pure-u-1-5">
-            <p>others</p>
+
+        <div
+          class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+          uk-grid
+        >
+          <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            <a
+              href="https://www.amazon.co.jp/%E3%82%B7%E3%83%A5%E3%82%AC%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%AB%E3%83%BC%E3%83%B3-1-KC%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9-%E5%AE%89%E9%87%8E-%E3%83%A2%E3%83%A8%E3%82%B3/dp/4063348598/ref=pd_sbs_14_img_0/355-1313787-6144002?_encoding=UTF8&pd_rd_i=4063348598&pd_rd_r=ca4daa91-07c2-40e0-9c0b-546e60c801d1&pd_rd_w=IVzNh&pd_rd_wg=TJKPN&pf_rd_p=ca22fd73-0f1e-4b39-9917-c84a20b3f3a8&pf_rd_r=EMCHRD5BGKN0TWXZ9Z25&psc=1&refRID=EMCHRD5BGKN0TWXZ9Z25"
+              ><img src="sugar2rune.jpg" alt="" uk-cover />
+            </a>
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">
+                Sugar Sugar Rune
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="pure-u-1-5">
+        <p>others</p>
+      </div>
     </div>
     <p>main</p>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
+  </body>
 </html>
